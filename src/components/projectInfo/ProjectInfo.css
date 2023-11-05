@@ -1,0 +1,208 @@
+
+.ng-tns-c57-0.ng-trigger.ng-trigger-projectInfoSwipe.ng-star-inserted {  
+    width: 360px;
+    height: 410px;
+    bottom: 0;
+    right: 25px;
+    padding-top: 2rem;
+    transition: height .4s ease;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0px !important;
+}
+.ng-trigger-projectInfoSwipe{
+    background: #000;
+    color: #fff;
+    display: block;
+    position: fixed;
+    padding: 5rem 1.5rem 2rem
+}
+@media (max-width: 992px) {
+    .ng-trigger-projectInfoSwipe{
+        height: 100%;
+        width: 100%;
+    }
+}
+.home-address h1 {
+    display: inline-block;
+    position: relative;
+    font-family: Dosis ExtraLight;
+    letter-spacing: .05rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.home-address h1 .separation {
+    position: relative;
+    margin-top: 1rem;
+    display: block
+}
+
+.home-address h1 .separation:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background: #2368a2
+}
+
+.home-address h1 .separation:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fdbb6a;
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    display: block;
+    margin-top: -13px
+}
+
+.home-address p {
+    padding-top: 1rem;
+    font-family: Dosis Light;
+    letter-spacing: .05rem
+}
+
+.home-address a {
+    color: #fdbb6a;
+    margin-top: .5rem;
+    display: inline-block;
+    letter-spacing: .05rem
+}
+
+.home-address .building-icon {
+    color: #f7d0a9;
+    width: 30%;
+    height: 30%;
+    display: flex
+}
+
+.home-info {
+    margin-top: 3rem
+}
+
+.home-info .head {
+    letter-spacing: .1rem;
+    position: relative;
+    padding-left: .8rem;
+    font-size: 1.2rem
+}
+
+.home-info .head:before {
+    content: "";
+    width: 3px;
+    height: 22px;
+    background: #fdbb6a;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.home-info .home-grid {
+    padding-top: 1.5rem;
+    display: flex;
+    letter-spacing: .05rem
+}
+
+.home-info .home-grid .flex-grow-1 {
+    flex-basis: 0;
+    flex-grow: 1
+}
+
+.home-info .home-grid .flex-grow-1.flex-grow-inherit {
+    flex-grow: inherit !important;
+}
+
+.home-info .home-grid .flex-grow-1.flex-basis-110 {
+    flex-basis: 110px
+}
+
+.home-info .home-grid p:first-child {
+    font-family: Dosis
+}
+
+.home-info .home-grid p:last-child {
+    font-family: Dosis ExtraLight;
+    color: #c3b6b6
+}
+
+.swipe-icon {
+    position: absolute;
+    bottom: .6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    color: #fff
+}
+
+.swipe-icon cs-icon {
+    width: 30px;
+    height: 30px
+}
+
+.swipe-icon :focus {
+    outline: 0
+}
+
+
+@media only screen and (min-width: 992px) {
+    .ng-trigger-projectInfoSwipe{
+        width:360px;
+        height: 410px;
+        bottom: 0;
+        right: 25px;
+        padding-top: 2rem;
+        transition: height .4s ease
+    }
+
+    .home-address h1 {
+        font-size: 1rem
+    }
+
+    .home-address h1 .separation {
+        margin-top: .5rem;
+        margin-bottom: .5rem
+    }
+
+    .home-address p {
+        padding-top: 0;
+        font-size: .8rem
+    }
+
+    .home-address .view-map {
+        display: none
+    }
+
+    .home-info {
+        margin-top: 1rem
+    }
+
+    .home-info .head {
+        font-size: 1rem
+    }
+
+    .home-info .home-grid {
+        padding-top: 1rem
+    }
+
+    .home-info .home-grid p:first-child, .home-info .home-grid p:last-child {
+        font-size: .8rem
+    }
+
+    .swipe-icon {
+        display: none
+    }
+}

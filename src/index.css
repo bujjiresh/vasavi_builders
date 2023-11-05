@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Dosis ExtraLight;
+  src: url(/src/assets/font/Dosis/Dosis-ExtraLight.ttf)
+}
+
+@font-face {
+  font-family: Dosis Light;
+  src: url(/src/assets/font/Dosis/Dosis-Light.ttf)
+}
+
+@font-face {
+  font-family: Dosis;
+  src: url(/src/assets/font/Dosis/Dosis-Regular.ttf)
+}
+
+@font-face {
+  font-family: Dosis SemiBold;
+  src: url(/src/assets/font/Dosis/Dosis-SemiBold.ttf)
+}
+
+@font-face {
+  font-family: Dosis Bold;
+  src: url(/src/assets/font/Dosis/Dosis-Bold.ttf)
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: Dosis;
+}
+*,*:focus,*:hover{
+  outline:none;
+}
+.carousel-item img{
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+.landing-page img{
+  height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.landing-page .bannersvg{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+}
+.landing-page .bannersvg path{
+  fill: transparent;
+}
+.landing-page .bannersvg path:focus,.landing-page .bannersvg path:hover {
+  fill: rgba(0,255,255,.3) !important;
+  stroke-width: .35;
+  stroke: #fff200;
+  cursor: pointer;
+}
+.logo1{
+  height: auto;
+  background: transparent;
+  border-bottom-left-radius: 15px;
+  padding: 0px 10px;
+  border-bottom-right-radius: 15px;
+}
+.logo2{
+  height: 60px;
+  padding: 3px 10px;
+  margin-top: 40px;
+}
+.navbar{
+  background-image: linear-gradient(rgba(0,0,0,.85),transparent);
+}
+a.nav-link {
+  color: #fff;font-size: 1.2rem;
+  font-family: Dosis ExtraLight;
+}
+.gallery {
+  text-align: center;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 5px 10px;
+  background: #0074d9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.image-grid img {
+  max-width: 100%;
+  height: auto;
+}
+.pt-10{
+  padding-top: 10rem;
+}
