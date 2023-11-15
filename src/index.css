@@ -24,9 +24,11 @@
 }
 
 body {
+  padding: 0;
   margin: 0;
   -webkit-font-smoothing: antialiased;
-  font-family: Dosis;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Dosis !important;background-color: #d7d7d7 !important;
 }
 *,*:focus,*:hover{
   outline:none;
@@ -41,23 +43,23 @@ body {
     width: 100%;
     object-fit: cover;
 }
-.landing-page .bannersvg{
+.bannersvg{
 position: absolute;
 width: 100%;
 height: 100%;
 left: 0px;
 }
-.landing-page .bannersvg path{
+.bannersvg path,.bannersvg polygon{
   fill: transparent;
 }
-.landing-page .bannersvg path:focus,.landing-page .bannersvg path:hover {
+.bannersvg path:focus,.bannersvg path:hover,.bannersvg polygon:focus,.bannersvg polygon:hover {
   fill: rgba(0,255,255,.3) !important;
   stroke-width: .35;
   stroke: #fff200;
   cursor: pointer;
 }
 .logo1{
-  height: auto;
+  height: 100px;
   background: transparent;
   border-bottom-left-radius: 15px;
   padding: 0px 10px;
@@ -66,14 +68,16 @@ left: 0px;
 .logo2{
   height: 60px;
   padding: 3px 10px;
-  margin-top: 40px;
+  position: absolute;
+  bottom: 2px;
 }
 .navbar{
   background-image: linear-gradient(rgba(0,0,0,.85),transparent);
 }
 a.nav-link {
   color: #fff;font-size: 1.2rem;
-  font-family: Dosis ExtraLight;
+  font-family: Dosis ExtraLight;    text-shadow: 2px 2px 4px #000;
+  background: transparent;    padding: 8px 12px !important;
 }
 .gallery {
   text-align: center;
@@ -104,4 +108,95 @@ a.nav-link {
 }
 .pt-10{
   padding-top: 10rem;
+}
+.navtxt{
+  position: absolute;
+    color: #fff;
+    top: 98px;
+    left: 23px;
+    right: auto;
+    text-align: left;
+}
+.navbar-brand{
+  padding-top: 0.2rem!important;
+}
+.nav-link:focus, .nav-link:hover {
+  color: #fdbb6a !important;
+}
+.popover-header, .popover-body {
+  background: #000;
+  color: #fff !important;
+}
+.gallerynav{
+  background: transparent;
+  border: 0;
+  color: #070f38;
+  font-size: 15px;
+  margin-right: 15px;
+  font-weight: 600;
+}
+.imgbox img{
+  height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #fff;
+    padding: 2px;
+}
+.st0{fill:#FFFFFF;}
+	.st1{fill:#231F20;}
+@media (min-width:992px) {
+  .navbar-collapse{
+    position: absolute;
+    top: 14px;
+    right: 0.8rem;
+  }
+  .sm-swipe-up,  .sm-swipe-double ,.view-floor-plan{
+    display: none;
+  }
+}
+.carousel-control-next, .carousel-control-prev{
+  top: 50% !important;    height: 40px;
+}
+.flatsvg{
+  width: auto;
+  height: 80vh;
+  left: 6%;
+  position: absolute;
+  top: 0%;
+}
+.flatdetails .carousel-item{
+  text-align: center;
+}
+.flatdetails .carousel-item img{
+  height: 80vh;
+  width: auto;
+}
+.modal-header{
+  background: linear-gradient(90deg,#ab5e00,#e4a55e);
+}
+.modal-title{
+  font-size: 1rem !important;
+  padding-left: 10px;
+  position: relative;
+  border-left: 3px solid #fdbb6a;
+  color: #fff !important;
+  font-family: Dosis ExtraLight;
+}
+ 
+.smooth-scroll::-webkit-scrollbar {
+  width: 5px
+}
+
+.smooth-scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+  border-radius: 5px
+}
+
+.smooth-scroll::-webkit-scrollbar-thumb {
+  background: #272b42;
+  border-radius: 5px
+}
+
+.smooth-scroll::-webkit-scrollbar-thumb:hover {
+  background: #272b42
 }
