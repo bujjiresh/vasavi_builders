@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import BlocksCarousel from './BlocksCarousel';
 
 const BlockDetails = () => {
-  const {type, id } = useParams();
+  const { id } = useParams();
 
   return (
     <div>

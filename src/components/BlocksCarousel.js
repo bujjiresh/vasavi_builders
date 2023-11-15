@@ -1,4 +1,4 @@
-import { useState, useEffect  } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import tower2 from '../assets/images/BannerImageSample.png';
