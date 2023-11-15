@@ -58,7 +58,7 @@ const FloorInfo = (props) => {
                 <path d="M7.308,68.211h107.188c4.037,0,7.309-3.272,7.309-7.31c0-4.037-3.271-7.309-7.309-7.309H7.308    C3.272,53.593,0,56.865,0,60.902C0,64.939,3.272,68.211,7.308,68.211z" fill="#ffffff" data-original="#000000" ></path>
               </g> </g>
            </svg></div>
-           {props.type != 'Tower' && 
+           {props.type !== 'Tower' && 
            <div className="interestbar"><div className="px-2">
             <svg width="20" height="20" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
   <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
