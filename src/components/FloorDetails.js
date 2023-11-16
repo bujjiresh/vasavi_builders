@@ -42,7 +42,7 @@ const FloorDetails = () => {
   };
   return (
     <div>
-      <img alt="" src="https://cbuildfiles.blob.core.windows.net/mangatram-de-blueoak/propertyimages/2023-01-09/03dff476-2f61-42ac-97d3-b8be0087088bth-floor-plan.svg" height="100%" width="100%" />
+      <img alt="" src="https://cbuildfiles.blob.core.windows.net/mangatram-de-blueoak/propertyimages/2023-01-09/03dff476-2f61-42ac-97d3-b8be0087088bth-floor-plan.svg" className='floorimg' />
       <svg className='bannersvg' version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xmlSpace="preserve" viewBox="0 0 1920 979.00002" enableBackground="new  0 0 1920 979"><g transform="translate(0,-73.362161)">
         {paths.map((item, index) => (
           <path
